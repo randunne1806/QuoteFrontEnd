@@ -10,8 +10,8 @@ import AWS from 'aws-sdk';
 import { expand } from 'braces';
 
 const s3 = new AWS.S3({
-  accessKeyId: 'AKIAYKCZBZUZZDY7KNAK',
-  secretAccessKey: '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',
+  accessKeyId: 'ACCESSKEY',
+  secretAccessKey: 'SECRETACCESSKEY',
   region: 'us-east-2'
 });
 
