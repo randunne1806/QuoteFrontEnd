@@ -1,0 +1,109 @@
+.login-container {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the login form horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /*margin-top: 20px;*/
+  }
+  
+.everything {
+  max-width: 500px;
+  margin: 0 auto;
+  
+}
+  
+  .app-title {
+     /* Set the font size for the app title */
+     /* Add margin to create space between the app title and login title */
+    margin-left: 20px;
+    /*padding: 20px;*/
+    /*text-align: center;*/
+  }
+  
+  .login-title {
+     /* Set the font size for the login title */
+    margin-top: 0px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Add margin between each input group */
+  }
+  
+  .form-group label {
+    margin-bottom: 8px; /* Add margin between label and input */
+    display: inline-block;
+    width: 75px;
+    margin-right: 10px;
+  }
+  
+  .form-control {
+    width: 25%; /* Set input fields to full width */
+    padding: 8px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 4px; /* Add border radius to input fields */
+  }
+
+  .login-button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+    width: 50%; /* Set width to auto to fit content */
+    transition: background-color 0.3s; /* Add transition effect */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+  .custom-input {
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    padding: 8px 12px; /* Add padding for spacing inside the input */
+    font-size: 16px; /* Adjust font size */
+    width: 100%; /* Ensure the input takes full width */
+    box-sizing: border-box; /* Include padding and border in the input's total width */
+    
+    height: 40px; /* Define the height of the input fields */
+    padding: 8px; /* Adjust padding as needed */
+     /* Add some space between input fields */
+  }
+  
+  .custom-input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add box shadow on focus */
+  }
+
+  .password-input {
+    position: relative;
+  }
+  
+  .password-toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    line-height: 1; /* Ensure the line height matches the button height */
+    z-index: 1; /* Ensure the button is above the input field */
+  }
+  
+
+  
+  .custom-input {
+    padding-right: 30px; /* Adjust this value as needed to accommodate the button */
+  }
+

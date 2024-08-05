@@ -1,0 +1,59 @@
+.upload-container {
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    text-align: left; /* Align text to the left */
+}
+
+.overall-containers {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upload-container h1 {
+    margin-left: 225px; /* Set margin for the header */
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     /* Add top margin */
+}
+.info {
+    margin-left: 25px;
+}
+
+.loading-content {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.loading-indicator {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #007bff;
+    border-radius: 50%;
+    width: 40px; /* Ensure width and height are the same */
+    height: 40px; /* Ensure width and height are the same */
+    animation: spin 1s linear infinite;
+    margin-right: 20px; /* Add right margin */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.button-containerss {
+    align-self: flex-end;
+     /* Add top margin */
+    width: auto;
+    min-width: 120px;
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px;
+    margin-left: 325px;
+}

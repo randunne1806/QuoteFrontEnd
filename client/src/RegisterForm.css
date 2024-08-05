@@ -1,0 +1,54 @@
+.login-containers {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the login form horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+  }
+
+  .overall-container {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the login form horizontally */
+     /* Add padding to the container */
+    margin-bottom: 20px;
+    /*margin-top: 20px;*/
+  }
+
+  .app-title {
+    /* Set the font size for the app title */
+    /* Add margin to create space between the app title and login title */
+   margin-left: 20px;
+   /*padding: 20px;*/
+   /*text-align: center;*/
+ }
+
+ .input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}

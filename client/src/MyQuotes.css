@@ -1,0 +1,296 @@
+.my-quotes-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .button-header {
+    display: flex; /* Use flexbox to align buttons */
+  }
+  
+  .button-header button:not(:last-child) {
+    margin-right: 10px; /* Adjust the right margin to create space between buttons */
+  }
+
+  .logout-button {
+    background-color: red; /* Red background color */
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  /* Change background color on hover for logout button */
+  .logout-button:hover {
+    background-color: darkred; /* Darker shade of red on hover */
+  }
+
+  .under-construction {
+    text-align: center; /* Center align text */
+  }
+  
+  .title {
+    margin: 0;
+  }
+
+  .table-title {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  
+  .new-quote-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .quote-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote-card {
+    position: relative;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    min-height: 80px;
+  }
+
+  .quote-card.expanded {
+    padding-bottom: 70px; /* Adjust the minimum height of the expanded card */
+  }
+
+  .split-tables {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-between; /* Distribute the images with space between them */
+  }
+  
+  .split-tables table {
+    margin-right: 40px; /* Add some spacing between tables */
+  }
+
+  .quote-card.expandedd {
+    min-height: 1600px;
+  }
+
+  .quote-card.expandeddd {
+    min-height: 2100px;
+  }
+  
+  .horizontal-line {
+    position: absolute;
+    border-top: 1px solid #000000; /* Define the style of the horizontal line */
+    margin: 20px 0; /* Add margin for spacing */
+    bottom: 325px;
+    width: 95%;
+}
+  
+  .quote-number {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+  }
+  
+  .date {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+  }
+  
+  .part-number {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+  
+  .status {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+  }
+
+  .top {
+    position: absolute;
+    bottom: 400px;
+    left: 165px;
+  }
+
+  .final {
+    position: absolute;
+    bottom: 285px;
+    left: 20px;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 400px;
+    right: 150px;
+  }
+
+.upload-button {
+    position: absolute;
+    bottom: 15px;
+    right: 70px;
+}
+
+.order-button {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.pdf-button {
+    position: absolute;
+    bottom: 10px;
+    right: 140px;
+}
+
+.testing {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+.quote-optionss {
+    position: absolute;
+    top: 1390px;
+}
+  
+  .quote-card:hover {
+    background-color: #e6e6e6;
+  }
+
+  .images {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-between; /* Distribute the images with space between them */
+  }
+  
+  .image1 { 
+    max-width: 37%; /* Set the maximum width for each image */
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+  }  
+  
+  .image2 {
+    max-width: 37%; /* Set the maximum width for each image */
+    height: auto;
+    margin-top: 100px;
+    margin-right: 50px;
+  }
+
+  .table1 { 
+    
+    margin-left: 25px;
+  }  
+  
+  .table2 {
+    
+    margin-right: 25px;
+  }
+
+  .table-container {
+    display: flex;
+  }
+  
+  .left-table {
+    flex: 1;
+  }
+  
+  .right-table {
+    flex: 1;
+  }
+  
+  .quote-table {
+    width: 95%;
+  }
+
+.pricing-table {
+    position: absolute;
+    bottom: 65px;
+    width: 95%;
+    border-collapse: collapse; /* Ensure borders collapse properly */
+    border: 1px solid #dcdcdc; /* Set to your desired border color */
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+
+.clicked-cell {
+    background-color: #e0e0e0; /* Set to your desired background color for clicked cells */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.quote-table td {
+    background-color: #ffffff; /* Set to your desired background color */
+}
+.quote-table th {
+    background-color: #f0f0f0; /* Set to your desired background color */
+}
+
+/* Change the color of table borders */
+.quote-table {
+    border-collapse: collapse; /* Ensure borders collapse properly */
+    border: 1px solid #dcdcdc; /* Set to your desired border color */
+    border-radius: 5px;
+}
+
+/* Change the color of table header cells */
+.quote-table td {
+     /* Set to your desired header background color */
+    border: 1px solid #dcdcdc; /* Set to your desired header border color */
+}
+
+  h4.inline {
+    display: inline; /* Set the display property to inline */
+    margin-right: 325px; /* Add more spacing between the elements */
+    margin-top: 200px; /* Adjust the top margin to push the text down */
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .quote-options {
+    margin-top: 20px;
+}
+
+/* Style for label and select dropdown */
+
+
+.dropdown label {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+     /* Add some space between label and dropdown */
+}
+
+.dropdown select {
+    width: 300px; /* Adjust width as needed */
+}
+
+/* Style for quantities */
+.quantities {
+    margin-top: 20px;
+}
+
+.quantities label {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.quantities input {
+    width: 200px; /* Adjust width as needed */
+    margin-right: 10px; /* Add some space between inputs */
+}

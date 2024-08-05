@@ -1,0 +1,170 @@
+.carts-container {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 350px;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+
+.test-container {
+    display: flex;
+}
+
+.supertable {
+    min-width: 500px;
+}
+
+  .main-image {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    max-height: 300px; /* Adjust the maximum height as needed */
+  }
+  
+  .preview-images-container {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.preview-image {
+    margin: 5px; /* Adjust the margin to create space between images */
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    max-width: 50px; /* Adjust the maximum width of the preview images */
+    max-height: 50px; /* Adjust the maximum height of the preview images */
+}
+
+.preview-image:not(:last-child) {
+    margin-right: 10px; /* Add right margin except for the last preview image */
+}
+
+.preview-image.active {
+    opacity: 1;
+}
+
+.image-gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 100%;
+}
+
+.image-gallery-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 350px; /* Ensure a minimum height */
+}
+
+.quote-option {
+    width: 100%;
+}
+
+.quote-options-table {
+    
+    width: 75%;
+}
+
+.quote-options-table td {
+    padding: 8px;
+    border: none; /* Remove borders */
+}
+
+.quote-options-table td:first-child {
+    text-align: left;
+}
+
+.quote-options-table td:not(:first-child) {
+    padding-left: 10px;
+}
+
+.quote-options-table tr:nth-child(2) td:nth-child(2),
+.quote-options-table tr:nth-child(3) td:nth-child(2) {
+    border-right: 1px solid black; /* Adjust border style as needed */
+}
+
+/* Remove border from the left side of the second and third cells of the second and third rows */
+.quote-options-table tr:nth-child(2) td:nth-child(3),
+.quote-options-table tr:nth-child(3) td:nth-child(3) {
+    border-right: none; /* Remove left border */
+}
+
+.table-container {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.custom-table {
+    width:100%;
+    min-width: 250px;
+    border: 1px solid #dddddd;
+}
+
+.custom-tables {
+    width:100%;
+    border-collapse: collapse;
+    border: none;
+    min-width: 250px;
+}
+
+.custom-tables td {
+    padding: 0;
+    border: none;
+    padding-bottom: 20px;
+}
+
+.custom-table td {
+    padding: 0;
+    text-align: center;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.custom-table th {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.selected-cell {
+    background-color: #b3d9ff; /* Change this to the desired background color */
+    cursor: pointer; /* Change cursor to indicate clickable */
+}
+
+.custom-table td:not(.selected-cell):hover {
+    background-color: #e6f7ff; /* Change this to the desired background color when hovered */
+}
+
+.additional-info, .button-container {
+    width: 50%;
+}
+
+.amount {
+    text-align: left;
+    padding-left: 8px;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust margin as needed */
+    
+}
+
+.payment-button {
+    text-align: right;
+}
+
+.payment-form-container {
+    width: 100%;
+    margin-top: 20px; /* Add margin to create space between table-container and PaymentForm */
+}

@@ -1,0 +1,107 @@
+.cart-container {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 325px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .cart-container.expanded {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 625px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+.imagess {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-between; /* Distribute the images with space between them */
+    align-items: center; /* Center the images vertically */
+    margin-top: 75px; /* Add some spacing between images and labels */
+}
+
+.image11, .image22 {
+    margin-top: 0px;
+    max-width: 49%; /* Set the maximum width for each image */
+    height: auto;
+    
+}
+
+.test-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure the container spans the entire width */
+}
+
+.topp {
+    position: absolute;
+    top: 555px;
+    left: 175px;
+}
+
+.bottomm {
+    position: absolute;
+    top: 555px;
+    right: 175px;
+}
+
+.quote-numbers {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+  }
+  
+  .dates {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+  }
+  
+  .part-numbers {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+  
+  .statuss {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+  }
+
+  .table-titles {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+  }
+
+  .quote-tables {
+    position: absolute;
+    top: 660px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.quote-optionsss {
+    position: absolute;
+}
+
+.horizontal-line {
+    position: absolute;
+    border-top: 1px solid #000000; /* Define the style of the horizontal line */
+    margin: 20px 0; /* Add margin for spacing */
+    bottom: 325px;
+    width: 95%;
+}
+
+
+

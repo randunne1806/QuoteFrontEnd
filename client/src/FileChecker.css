@@ -1,0 +1,105 @@
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue color */
+  }
+
+  .container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding around the content */
+  }
+  
+  .myImage {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lift effect */
+  }
+
+  .image-container {
+    display: flex; /* Use flexbox to arrange images horizontally */
+  }
+  
+  .image-with-text {
+    margin-right: 20px; /* Add some spacing between image and text */
+  }
+  
+  p {
+    margin-top: 8px; /* Add some space between the image and text */
+    text-align: center;
+  }
+
+  .summary-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .summary-table td, .summary-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .summary-table th {
+    background-color: #f2f2f2;
+  }
+
+  .data-summary-title {
+    text-align: center;
+    font-size: 24px; /* Adjust the size as needed */
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  .label-text {
+    font-size: 18px; /* Adjust the size as needed */
+    margin-bottom: 8px;
+  }
+
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-group {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+  .button-group {
+    margin-top: 10px; /* Adjust the margin as needed */
+    display: block;
+  }
+
+  .header-column {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .cell-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-aligned-value {
+    text-align: right;
+  }
+
+  .total-line {
+    text-align: right;
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-weight: bold;
+  }
+  
+  

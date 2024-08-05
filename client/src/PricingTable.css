@@ -1,0 +1,61 @@
+.new-containers {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-bottom: 20px;
+    
+  }
+
+  .new-containers h2 {
+    margin-top: 0px; /* Adjust margin for spacing between top of container and h2 */
+}
+
+  .estimate-button {
+    margin-top: 20px;
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+.horizontal-lines {
+    
+    border-top: 1px solid #000000; /* Define the style of the horizontal line */
+    margin: 20px 0; /* Add margin for spacing */
+    
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pricing-cell {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pricing-cell:hover {
+    background-color: #e6f7ff;
+}
+
+.pricing-cell.selected {
+    background-color: #b3d9ff;
+}

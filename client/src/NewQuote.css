@@ -1,0 +1,196 @@
+/* Container styling */
+.content-to-pdf {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 225px;*/
+    /*margin-bottom: 20px;*/
+    margin-bottom: 0px;
+  }
+  
+.title {
+    margin: 0;
+    margin-bottom: 0px;
+}
+.new-quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-bottom: 20px;
+    
+  }
+  
+  .button-bar button {
+    border-radius: 0; /* Remove border radius for all buttons in the button bar */
+}
+
+  /* Button styling */
+  .new-quote-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+     /* Add border radius */
+  }
+  
+  /* Input field and label styling */
+  .input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+    .input-group {
+        margin-right: 20px; /* Adjust margin between input groups */
+    }
+
+    .input-group label {
+        margin-right: 10px; /* Adjust margin between label and input */
+    }
+    .file-upload-container {
+        display: flex;
+    align-items: center; /* Align items vertically */
+    /*margin-bottom: 20px; /* Center items vertically */
+    }
+    
+    .file-upload-button {
+        background-color: #007bff; /* Add your desired button background color */
+        color: white; /* Add your desired button text color */
+        padding: 10px 20px; /* Add padding to the button */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add border radius to the button */
+        cursor: pointer; /* Add cursor pointer */
+    }
+    
+    .file-input {
+        display: none; /* Hide the default file input */
+    }
+    
+    /* Style the selected file name */
+    .file-name {
+        margin-left: 10px; /* Add margin to separate the file name from the button */
+        font-size: 14px; /* Add desired font size for the file name */
+    }
+  /* File upload description styling */
+  .upload-description {
+    margin-right: 600px; /* Adjust margin as needed */
+    font-style: italic; /* Example styling for the description */
+    color: #666; /* Text color */
+  }
+  
+  /* Upload button styling */
+  .upload-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Add border radius */
+     /* Align the button to the right */
+    margin-top: 20px;
+    
+    width: auto;
+    min-width: 120px;
+  }
+  
+  /* Hover effect for the Upload button */
+  .upload-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .new-part-button,
+.existing-part-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Initial style for the "New Part" button */
+.new-part-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Initial style for the "Existing Part" button */
+.existing-part-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Selected style for the buttons */
+.new-part-button.selected,
+.existing-part-button.selected {
+    background-color: #0056b3;
+}
+
+/* Hover effect for the buttons */
+.new-part-button:hover,
+.existing-part-button:hover {
+    background-color: #0056b3; /* Darken the color on hover */
+}
+
+.quote-options {
+    position: absolute;
+    bottom: 100px;
+    margin-left: 100px;
+}
+
+/* Style for label and select dropdown */
+
+.dropdown-container label {
+    display: inline-block;
+    width: 150px;
+    
+}
+
+.dropdown-container select {
+    width: 200px;
+    margin-right: 10px;
+}
+
+/* Style for quantities */
+.quantity-container {
+    margin-top: 20px;
+}
+
+.quantity-container label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.quantity-container input {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.button-containers {
+    
+    width: auto;
+    min-width: 120px;
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px;
+    margin-right: 10px;
+}
